@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="veh" class="exemplul04.Vehicul">
+        <constructor-arg value="Vehicul1" />
+        <constructor-arg value="30000" />
+    </bean>
+
+    <bean id="auto" class="exemplul04.Autoturism">
+        <constructor-arg value="Audi" />
+        <constructor-arg value="50000" />
+        <constructor-arg value="5000" />
+        <constructor-arg  value="15000" />
+    </bean>
+
+    <bean id="Motocicleta" class="exemplul04.Motocicleta">
+        <constructor-arg value="Harley Davidson" />
+        <constructor-arg value="300000" />
+        <constructor-arg value="250" />
+    </bean>
+
+    <bean id="Tir" class="exemplul04.Tir">
+        <constructor-arg value="Volvo" />
+        <constructor-arg value="300000" />
+        <constructor-arg value="43500" />
+    </bean>
+
+
+</beans>
